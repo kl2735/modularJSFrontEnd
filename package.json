@@ -1,0 +1,19 @@
+{
+  "name": "persondemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "jsdom": "^6.5.0"
+  },
+  "devDependencies": {
+    "jquery": "^2.1.4",
+    "jsdom": "^6.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

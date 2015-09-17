@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>person demo</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+
+<div >
+	<h1>Stats:</h1>
+	<div id="statModule">
+		<script id="stat-template" type="text/template">
+	        {{#stat}}
+	            count:  <span>{{.}}</span>
+
+	        {{/stat}}
+	    </script>
+	</div>
+	
+</div>
+
+<div id="peopleModule">
+            <h1>People</h1>
+            <input placeholder="name" type="text">
+            <button id="addPerson">Add Person</button>
+            <ul id="people">
+                <script id="people-template" type="text/template">
+                    {{#people}}
+                        <li>
+                            <span>{{.}}</span>
+                            <i class="del">X</i>
+                        </li>
+                    {{/people}}
+                </script>
+            </ul>
+
+ </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="mustache.js/mustache.js"></script>
+<script type="text/javascript" src="pubsub.js"></script>
+<script type="text/javascript" src="stat.js"></script>
+<script type="text/javascript" src="peopleRevealingModulePattern.js"></script>
+</body>
+</html>
