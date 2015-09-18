@@ -8,8 +8,11 @@
     "jsdom": "^6.5.0"
   },
   "devDependencies": {
+    "gulp": "^3.9.0",
     "jquery": "^2.1.4",
-    "jsdom": "^6.5.0"
+    "jsdom": "^6.5.0",
+    "webpack": "^1.12.2",
+    "webpack-stream": "^2.1.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
