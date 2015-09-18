@@ -1,3 +1,6 @@
+var $ = require('jquery');
+var events = require('./pubsub');
+
 var people = ( function() {
 
 		var people = ["will", "ke", "leo"];
@@ -53,3 +56,5 @@ var people = ( function() {
 		};
 
 })();
+
+module.exports = people;

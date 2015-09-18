@@ -1,3 +1,4 @@
+var events = require("./pubsub");
 
 var stat = (function () {
 	var peopleCount = 0;
@@ -26,3 +27,5 @@ var stat = (function () {
 		setCount: setCount
 	};
 })();
+
+module.exports = stat;

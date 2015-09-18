@@ -1,0 +1,5 @@
+require('./stat');
+
+require('./peopleRevealingModulePattern');
+
+
